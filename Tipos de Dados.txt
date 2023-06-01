@@ -1,0 +1,24 @@
+1-Boolean (1 ou 0)
+BIT
+2-Caracteres:
+char: Tamanho fixo, que sempre vai ocupar esse tamanho na memoria
+varchar ou nvarchar: permite ate uma quantidade que for definida, porem so usa o espaço que for preenchido.
+3 Numeros:
+-Valores Exatos:
+TINYINT - Não tem valor fracionado, somente valores inteiros
+SMALLINT Mesma coisa com limite maior
+INT - mesma coisa com limite maior
+BIGINT - mesma coisa com limite maior
+NUMERIC ou DECIMAL - valores exatos, porem com parte fracionada, e pode ser especificado a precisão(quantidade total de digitos q pode armazenar) e escala(quantos valores ele tem após o valor decimal, ou apos a virgula) -ex NUMERIC (5,2) 113,44
+
+Valores Aproximados:
+REAL - tem precisão aproximada até 15 digitos.
+FLOAT - mesmo conceito de REAL
+
+4 Temporais:
+DATE - armazena data no formato aaaa/mm/dd
+DATETIME - armazena data e horas no formato aaaa/mm/dd:hh:mm:ss
+DATETIME2 - data e horas com adição de milissegundos no formato aaaa/mm/dd:hh:mm:sssssss
+SMALLDATETIME - data e hora nos respeitando o limite entre '1900-01-01:00:00:00' até '2079-06-06:23:59:59'
+TIME - horas, minutos, segundos, e milissegundos, respeitanto o limite de '00:00:00.0000000' to '23:59:59.9999999'
+DATETIMEOFFSET - permite armazenar informações de datas e horas incluindo o fuso horário.

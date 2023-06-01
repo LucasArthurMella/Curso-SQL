@@ -1,0 +1,8 @@
+INSERT INTO nomeTabela(coluna1, coluna2,...)
+VALUES(valor1,valor2)
+VALUES(valor1,valor2)
+VALUES(valor1,valor2)
+
+INSERT INTO TabelaA (coluna1)
+SELECT coluna2
+FROM TabelaB

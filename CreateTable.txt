@@ -1,0 +1,13 @@
+CREATE TABLE nomeTabela (
+  coluna1 tipo restricaoDaColuna,
+  coluna2 tipo restricaoDaColuna,
+  coluna3 tipo restricaoDaColuna
+)
+
+restrições:
+NOT NULL - Não permite nulos
+UNIQUE - Força que todos os valores em uma coluna sejam diferentes
+PRIMARY KEY - Uma junção de NOT NULL e UNIQUE
+FOREIGN KEY - identifica unicamente uma linha em outra tabela
+CHECK - FORÇA uma condição específica em uma coluna
+DEFAULT - força um valor padrão quando nenhum valor é passado.
